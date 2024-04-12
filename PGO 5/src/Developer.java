@@ -16,11 +16,9 @@ public class Developer extends Employee{
         this.pesel=pesel;
         this.YearOfEmployment=yearOfEmployment;
 
-
-
     }
     public void addTechnology(Technology technology){
 
-
     }
+
 }

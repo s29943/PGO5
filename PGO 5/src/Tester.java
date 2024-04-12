@@ -1,4 +1,4 @@
-public class Tester {
+public class Tester extends  Employee {
     public String FirstName;
     public String LastName;
     public String address;
@@ -15,6 +15,9 @@ public class Tester {
         this.email=email;
         this.pesel=pesel;
         this.YearOfEmployment=yearOfEmployment;
+    }
+
+    public void addTestType(String testType) {
     }
 }
 
